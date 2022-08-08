@@ -1,5 +1,5 @@
-import { Editor } from "@tiptap/core"; 
+import { JSONContent } from "@tiptap/core"; 
 
-export function test(e: Editor): void {
+export function test(e: JSONContent): void {
     console.log(e);
 }
